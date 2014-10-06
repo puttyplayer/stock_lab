@@ -1,4 +1,4 @@
-puts "This program will find the zscore, mean, median and standard deviation of a set of data"
+puts "This program will find the zscore, mean, median and standard deviation of a set of data. Today we will look at the stock data of Google"
 f= File.open("google.csv", "r+")
 info= f.readlines
 
